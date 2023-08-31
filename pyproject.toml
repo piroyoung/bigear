@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "speech-rec"
+version = "0.1.0"
+description = ""
+authors = ["piroyoung <piroyoung@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.277"
+azure-cognitiveservices-speech = "^1.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
